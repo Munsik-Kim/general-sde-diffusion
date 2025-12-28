@@ -1,0 +1,22 @@
+# .gitignore
+
+# 1. Python & System
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+venv/
+env/
+
+# 2. Experimental Outputs (실험 결과물 제외)
+outputs/
+*.png
+*.jpg
+*.csv
+*.pth
+*.log
+
+# 3. Data (데이터셋 제외)
+data/
+MNIST/
